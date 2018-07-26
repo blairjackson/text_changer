@@ -1,0 +1,24 @@
+/* styling for html elements */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  text-transform: uppercase;
+  font-family: Verdana, sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  height:100vh;
+  font-size: 2em;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #6CD4FF;
+}
+
+.text_position{
+  text-align: center;
+}
